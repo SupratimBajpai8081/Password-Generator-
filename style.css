@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 360px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .result-box {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #password {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    flex: 1;
+  }
+  
+  #copy {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  #copy:hover {
+    transform: scale(1.2);
+  }
+  
+  .options label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button#generate {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button#generate:hover {
+    transform: scale(1.05);
+  }
+  
